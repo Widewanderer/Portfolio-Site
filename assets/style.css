@@ -1,8 +1,38 @@
 :root {
   --backgroundLight: #730606e3;
-  --stripLight: #d09342;
+  --stripLight: #f2f2f2;
+  /* --brown: #d09342; */
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  height: 250px;
+  background-color: var(--stripLight);
+}
+
+.profilePhoto {
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 13%;
+}
+.profilePhoto {
+  border-radius: 50%;
 }
 
 Body {
   background-color: var(--backgroundLight);
+}
+section {
+  height: 400px;
+  width: 80%;
+  margin: 30px auto;
+  border: 10px;
 }
