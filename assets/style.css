@@ -1,0 +1,8 @@
+:root {
+  --backgroundLight: #730606e3;
+  --stripLight: #d09342;
+}
+
+Body {
+  background-color: var(--backgroundLight);
+}
