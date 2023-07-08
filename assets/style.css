@@ -1,7 +1,7 @@
 :root {
   --backgroundLight: #730606e3;
   --stripLight: #f2f2f2;
-  /* --brown: #d09342; */
+  --brown: #d09342;
 }
 
 h1,
@@ -9,10 +9,10 @@ h2,
 h3 {
   text-align: center;
 }
-
+/* Top banner with photo and info  */
 header {
-  width: 100%;
-  height: 250px;
+  width: 90%;
+  height: 330px;
   background-color: var(--stripLight);
 }
 
@@ -22,6 +22,10 @@ header {
   margin-left: auto;
   margin-right: auto;
   width: 13%;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
 }
 .profilePhoto {
   border-radius: 50%;
@@ -30,6 +34,21 @@ header {
 Body {
   background-color: var(--backgroundLight);
 }
+
+.stripe {
+  /* White stripe on left side*/
+  position: fixed;
+  top: 0;
+  left: 50; /* cant move right*/
+  height: 100vh; /* Adjust the height as per your requirement */
+  width: 70px; /* Adjust the width as per your requirement */
+  background-color: var(--stripLight);
+  z-index: 9999;
+}
+.content {
+  margin-left: 20px; /* Adjust the margin to create space for the stripe */
+}
+
 section {
   height: 400px;
   width: 80%;
