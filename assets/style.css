@@ -9,9 +9,9 @@ h2,
 h3 {
   text-align: center;
 }
-/* Top banner with photo and info  */
+/* Top banner with photo and info, why red to right  */
 header {
-  width: 90%;
+  margin-left: 110px;
   height: 330px;
   background-color: var(--stripLight);
 }
@@ -31,15 +31,19 @@ header {
   border-radius: 50%;
 }
 
+/* overflow: gets rid of of horizontal red scrolling issue. Margin: gets rid of default margin*/
 Body {
   background-color: var(--backgroundLight);
+  margin: 0px;
+  overflow-x: hidden;
+  font-family: "Press Start 2P", cursive;
 }
 
 .stripe {
   /* White stripe on left side*/
   position: fixed;
   top: 0;
-  left: 50; /* cant move right*/
+  left: 50px; /* cant move right*/
   height: 100vh; /* Adjust the height as per your requirement */
   width: 70px; /* Adjust the width as per your requirement */
   background-color: var(--stripLight);
