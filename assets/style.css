@@ -9,13 +9,13 @@ h2,
 h3 {
   text-align: center;
 }
-/* Top banner with photo and info, why red to right  */
+/* Top white banner with photo and info */
 header {
   width: auto;
   height: 330px;
   background-color: var(--stripLight);
 }
-
+/* beauty incarnate */
 .profilePhoto {
   height: auto;
   display: block;
@@ -92,24 +92,34 @@ padding: 5%;
 }
 
 
-/* Other Images */
+/* Other Images */  
+  /*add  border, boxes wrap  */
 .other-images {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  max-width: 100%;
+  max-width: 90%;
   padding: 5%;
-}
+}     
 
-.image-2 {
+
+.image-2, .image-3, .image-4, .image-5 {
   max-width: 100%;
+  flex-basis: 50%;
 }
 
-.image-3, .image-4, .image-5 {
-  max-width: 100%;
+/* Footer */
+footer {
+  width: auto;
+  height: 100px;
+  background-color: var(--stripLight);
 }
 
+/* should put footer content in vertical line */
+.footer-content {
+  display: inline;
+}
 
 /* .content {
   margin-left: 120px; /* Adjust the margin to create space for the stripe */
