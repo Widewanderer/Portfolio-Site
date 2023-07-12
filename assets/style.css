@@ -92,10 +92,23 @@ padding: 5%;
 }
 
 
+/* Other Images */
+.other-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  padding: 5%;
+}
 
+.image-2 {
+  max-width: 100%;
+}
 
-
-
+.image-3, .image-4, .image-5 {
+  max-width: 100%;
+}
 
 
 /* .content {
