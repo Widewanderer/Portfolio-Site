@@ -11,7 +11,7 @@ h3 {
 }
 /* Top banner with photo and info, why red to right  */
 header {
-  width: 350vh;
+  width: auto;
   height: 330px;
   background-color: var(--stripLight);
 }
@@ -47,7 +47,7 @@ body {
   /* width: 200px; */
   flex-basis: 10%;
   height: auto;
-  background-color: green;
+  background-color: var(--backgroundLight);
 }
 
 .left-white-child {
@@ -55,21 +55,49 @@ body {
   height: auto;
    background-color: var(--stripLight);
 }
-
+/* Main body of content  */
 .right-red-child {
-  width: 50%;
+  width: 80%;
 }
 
-.stripe {
-  /* White stripe on left side*/
-  position: fixed;
-  top: 0;
-  left: 50px; /* cant move right*/
-  height: 100vh; /* Adjust the height as per your requirement */
-  width: 70px; /* Adjust the width as per your requirement */
-  background-color: var(--stripLight);
-  z-index: 9999;
+.content {
+  display: flex;
+  flex-direction: column;
+  
 }
+
+
+/* Nav links styling  */
+li {
+  display: inline;
+  
+}
+
+ul {
+  padding-top: 3%;
+  padding-left: 2%;
+}
+
+/* Nav links  */
+p {
+padding: 5%;
+}
+
+
+
+/* Main Image */
+.main-image-pic {
+  max-width: 100%;
+  max-height: auto;
+}
+
+
+
+
+
+
+
+
 /* .content {
   margin-left: 120px; /* Adjust the margin to create space for the stripe */
 } */
@@ -106,16 +134,16 @@ body {
   transition: 0.5s;
 } */
 
-.coding-item-1 {
+/* .coding-item-1 {
   width: 80%;
   height: 80%;
   /* instead of background image make img href  */
   /* background-image: url(./images/TopScreenshotHoriseon.png); */
   /* background-size: cover; */
-  cursor: pointer;
-}
+  /* cursor: pointer;
+} */
 
-.coding-item-1 img {
+/* .coding-item-1 img {
   flex: 0 0 auto;
   margin: 0 10px;
 }
@@ -129,4 +157,17 @@ body {
 .coding-item-3 {
   background-image: url(./images/green-neon-text-coming-soon-green-neon-text-coming-soon-illustration-115797978.webp);
   background-size: calc(104%);
-}
+} */ */
+
+
+
+/* .stripe { */
+  /* White stripe on left side*/
+  /* position: fixed; */
+  /* top: 0; */
+  /* left: 50px; cant move right */
+  /* height: 100vh; Adjust the height as per your requirement */
+  /* width: 70px; Adjust the width as per your requirement */
+  /* background-color: var(--stripLight);
+  z-index: 9999; */ */
+/* }
