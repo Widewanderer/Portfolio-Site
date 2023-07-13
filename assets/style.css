@@ -91,6 +91,10 @@ padding: 5%;
   max-height: auto;
 }
 
+.coding-item-1 {
+  border: 3px solid var(--stripLight);
+}
+
 
 /* Other Images */  
   /*add  border, boxes wrap  */
@@ -100,13 +104,19 @@ padding: 5%;
   justify-content: center;
   align-items: center;
   max-width: 90%;
-  padding: 5%;
 }     
 
+.coding-item-2, .coding-item-3, .coding-item-4, .coding-item-5 {
+  width: 45%;
+  border: 3px solid var(--stripLight);
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
 
 .image-2, .image-3, .image-4, .image-5 {
   max-width: 100%;
-  flex-basis: 50%;
+  flex-basis: 60%;
 }
 
 /* Footer */
@@ -120,6 +130,10 @@ footer {
 .footer-content {
   display: inline;
 }
+
+
+
+
 
 /* .content {
   margin-left: 120px; /* Adjust the margin to create space for the stripe */
@@ -146,7 +160,6 @@ footer {
 /* old code  */
 /* .flexbox-item {
   margin: 10px;
-  border: 3px solid #1b1a1ab4;
   width: 40%;
   min-height: 200px;
 } */
