@@ -1,24 +1,8 @@
-# Slava Tyson Trotz
-
-## TO Do
-
-1. Rust red background with white side left stripe
-
-   - Light and dark mode (or dark and Darker?)
-   - white mode: white with red?
-
-2. Header with photo, name etc
-3. Top left corner emblem?
-4. Boxes with photos and links to my projects
-   s
-
----
-
 # The Profile of Magos Slava Trotz
 
 Created profile website to display professional programming works.
 
-## Description
+### Description
 
 Created profile website for displaying of programming works with use of HTML,CSS, and GitHub. Features include;
 -- HTML
@@ -35,28 +19,20 @@ Created profile website for displaying of programming works with use of HTML,CSS
 
 ### To Do
 
--- Finish Flex orientation
--- Create Border for images
 -- Adjust Nav link positioning
 -- implement full hover effects
+-- Further adjust Flex-boxes
+-- Emblem in top left?
+-- Light and dark mode?
 
 **GitHub Repository Link**
+https://github.com/Widewanderer/Portfolio-Site/settings/pages
 
 **Profile Website**
+https://widewanderer.github.io/Portfolio-Site/
 
 ### Screenshots
 
----
+![Profile Website Top](./assets/images/ProfileSiteTop.png)
 
-### Links
-
-**GitHub Repository**
-https://widewanderer.github.io/Horiseon-SEO/
-
-**Horiseon Website**
-file:///Users/tysontrotz/Desktop/VBootcamp/Bootcamp1/CHALLENGES/Horiseon/index.html#social-media-marketing
-
-### Screenshots
-
-![Horiseon Website](./assets/images/TopScreenshotHoriseon.png)
-![Horiseon Website](./assets/images/BottomScreenshotHoriseon.png)
+## ![Profile Website Bottom](./assets/images/ProfileSiteBottoms.png)
